@@ -23,14 +23,21 @@
         <div class="container">
             <h2 class="text-center mb-4">Open Trip 3 Hari 2 Malam</h2>
             <p class="text-center text-muted mb-5">Pilih kapal, berangkat setiap hari Jumat dan Senin</p>
-            <div class="row g-4">
+            <div class="row ">
+                <div class="col-md-6">
+                    <select id="categoryFilter" class="form-select" onchange="filterByCategory()">
+                        <option value="all">All Categories</option>
+                        <option value="Luxury" {{ route('category.luxury') }}>Luxury</option>
+                        <option value="Deluxe">Deluxe</option>
+                        <option value="Superior">Superior</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-4 mt-4">
                 @foreach ($boats as $boat)
                     <div class="col-md-4">
                         <div class="card shadow-sm">
-                            <div class="ratio ratio-4x3">
-                                <img src="{{ asset($boat->image) }}" class="card-img-top img-fluid"
-                                    alt="{{ $boat->name }}">
-                            </div>
+                            <img src="{{ asset($boat->image) }}" class="card-img-top" alt="{{ $boat->name }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $boat->name }}</h5>
                                 <p class="card-text text-muted">
@@ -45,3 +52,7 @@
             </div>
         </div>
     </section>
+    <script src="/js/boats.js"></script>
+</body>
+
+</html>

@@ -27,8 +27,18 @@ Route::get('/detail/superior03', [HomeController::class, 'detailSuperior03'])->n
 
 Route::get('/detail/superior/superior04', [HomeController::class, 'detailSuperior04'])->name('detail.superior04');
 
-Route::get('/all-categories', [BoatController::class, 'allCategories'])->name('all.categories');
-
 Route::get('/detail/deluxe/deluxe01', [HomeController::class, 'detailDeluxe01'])->name('detail.deluxe01');
 
 Route::get('/detail/deluxe/deluxe02', [HomeController::class, 'detailDeluxe02'])->name('detail.deluxe02');
+
+Route::get('/detail/deluxe/deluxe03', [HomeController::class, 'detailDeluxe03'])->name('detail.deluxe03');
+
+Route::get('/detail/luxury/luxury01', [HomeController::class, 'detailLuxury01'])->name('detail.luxury01');
+
+Route::get('/detail/luxury/luxury02', [HomeController::class, 'detailLuxury02'])->name('detail.luxury02');
+
+Route::get('/all-categories', [BoatController::class, 'allCategories'])->name('all.categories');
+
+Route::get('/category/luxury', [BoatController::class, 'luxuryCategory'])->name('category.luxury');
+
+Route::get('/boat/{id}', [BoatController::class, 'show'])->name('detail.boat');

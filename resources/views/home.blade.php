@@ -108,7 +108,46 @@
                         <div class="card-body">
                             <h5 class="card-title">Deluxe 02</h5>
                             <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
-                            <a href="{{ route('detail.deluxe01') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
+                            <a href="{{ route('detail.deluxe02') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
+                                Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-4x3">
+                            <img src="/images/deluxe/deluxe03.jpeg" class="card-img-top img-fluid" alt="Amore">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe 03</h5>
+                            <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
+                            <a href="{{ route('detail.deluxe03') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
+                                Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-4x3">
+                            <img src="/images/luxury/luxury01.jpg" class="card-img-top img-fluid" alt="Amore">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury 01</h5>
+                            <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
+                            <a href="{{ route('detail.luxury01') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
+                                Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-4x3">
+                            <img src="/images/luxury/luxury02.jpg" class="card-img-top img-fluid" alt="Amore">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury 02</h5>
+                            <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
+                            <a href="{{ route('detail.luxury02') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
                                 Detail</a>
                         </div>
                     </div>

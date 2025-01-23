@@ -40,4 +40,29 @@ class HomeController extends Controller
     {
         return view('detail/deluxe/deluxe02');
     }
+
+    public function detailDeluxe03()
+    {
+        return view('detail/deluxe/deluxe03');
+    }
+
+    public function detailLuxury01()
+    {
+        return view('detail/luxury/luxury01');
+    }
+
+    public function detailLuxury02()
+    {
+        return view('detail/luxury/luxury02');
+    }
+
+    public function detailLuxury03()
+    {
+        return view('detail/luxury/luxury03');
+    }
+
+    public function allCategories()
+    {
+        return view('boats.all-categories');
+    }
 }
