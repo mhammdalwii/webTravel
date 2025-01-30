@@ -9,17 +9,7 @@
 </head>
 
 <body class="bg-light">
-    <header class="bg-white py-3 shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h4 text-primary">Easy Komodo</h1>
-            <nav>
-                <a href="#" class="text-primary text-decoration-none me-3">Private Trips</a>
-                <a href="#" class="text-primary text-decoration-none me-3">Open Trips</a>
-                <a href="#" class="text-primary text-decoration-none">Chat with Us</a>
-            </nav>
-        </div>
-    </header>
-
+    <x-header></x-header>
     <main class="position-relative vh-100 bg-dark text-white"
         style="background: url('/images/fotoBg.jpg') no-repeat center center/cover;">
         <div class="position-absolute top-50 start-50 translate-middle text-center bg-dark bg-opacity-50 p-5 rounded">
@@ -154,7 +144,7 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="{{ route('all.categories') }}" class="btn btn-primary btn-lg">Lihat Semua Kapal</a>
+                <a href="{{ route('boats.index') }}" class="btn btn-primary btn-lg">Lihat Semua Kapal</a>
             </div>
 
         </div>

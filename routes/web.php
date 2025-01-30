@@ -16,8 +16,9 @@ use App\Http\Controllers\BoatController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
-
+Route::get('/', function () {
+    return view('home'); // Sesuaikan dengan lokasi home.blade.php
+})->name('home');
 
 Route::get('/detail/superior/amore', [HomeController::class, 'detailAmore'])->name('detail.amore');
 
@@ -37,8 +38,10 @@ Route::get('/detail/luxury/luxury01', [HomeController::class, 'detailLuxury01'])
 
 Route::get('/detail/luxury/luxury02', [HomeController::class, 'detailLuxury02'])->name('detail.luxury02');
 
-Route::get('/all-categories', [BoatController::class, 'allCategories'])->name('all.categories');
 
-Route::get('/category/luxury', [BoatController::class, 'luxuryCategory'])->name('category.luxury');
+Route::get('/boats', [BoatController::class, 'index'])->name('boats.index');
+Route::get('/boats/superior', [BoatController::class, 'superior'])->name('boats.superior.category');
+Route::get('/boats/deluxe', [BoatController::class, 'deluxe'])->name('boats.deluxe.category');
+Route::get('/boats/luxury', [BoatController::class, 'luxury'])->name('boats.luxury.category');
 
-Route::get('/boat/{id}', [BoatController::class, 'show'])->name('detail.boat');
+Route::get('/boats/category/{category}', [BoatController::class, 'filterByCategory'])->name('boats.category');

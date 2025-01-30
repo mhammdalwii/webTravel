@@ -42,6 +42,79 @@ class BoatSeeder extends Seeder
         ]);
 
         Boat::create([
+            'name' => 'Superior 05',
+            'category' => 'Superior',
+            'price' => 3950000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore05.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 06',
+            'category' => 'Superior',
+            'price' => 3550000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore06.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 07',
+            'category' => 'Superior',
+            'price' => 3750000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore07.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 08',
+            'category' => 'Superior',
+            'price' => 3950000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore08.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 09',
+            'category' => 'Superior',
+            'price' => 3750000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore09.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 10',
+            'category' => 'Superior',
+            'price' => 3950000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore10.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 11',
+            'category' => 'Superior',
+            'price' => 3750000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore11.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 12',
+            'category' => 'Superior',
+            'price' => 3950000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore12.jpg',
+        ]);
+
+        Boat::create([
+            'name' => 'Superior 13',
+            'category' => 'Superior',
+            'price' => 3750000,
+            'max_people' => 15,
+            'image' => '/images/amore/amore13.jpg',
+        ]);
+
+
+        Boat::create([
             'name' => 'Deluxe 01',
             'category' => 'Deluxe',
             'price' => 4250000,

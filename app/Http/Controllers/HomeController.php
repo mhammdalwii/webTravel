@@ -11,6 +11,11 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function allCategories()
+    {
+        return view('boats.all-categories');
+    }
+
     public function detailAmore()
     {
         return view('detail/superior/amore');
@@ -59,10 +64,5 @@ class HomeController extends Controller
     public function detailLuxury03()
     {
         return view('detail/luxury/luxury03');
-    }
-
-    public function allCategories()
-    {
-        return view('boats.all-categories');
     }
 }

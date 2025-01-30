@@ -9,31 +9,33 @@ use App\Models\Boat;
 
 class BoatController extends Controller
 {
-    public function allCategories(Request $request)
+    public function index()
     {
-        $category = $request->query('category', 'all');
-
-        if ($category === 'all') {
-            $boats = Boat::all();
-        } else {
-            $boats = Boat::where('category', $category)->get();
-        }
-
-        return view('boats.all-categories', compact('boats'));
+        $boats = Boat::all();
+        return view('boats.index', compact('boats'));
     }
 
-    public function luxuryCategory()
+    public function superior()
     {
-        // Ambil semua kapal dengan kategori Luxury
+        $boats = Boat::where('category', 'Superior')->get();
+        return view('boats.index', compact('boats'))->with('selectedCategory', 'Superior');
+    }
+
+    public function deluxe()
+    {
+        $boats = Boat::where('category', 'Deluxe')->get();
+        return view('boats.index', compact('boats'))->with('selectedCategory', 'Deluxe');
+    }
+
+    public function luxury()
+    {
         $boats = Boat::where('category', 'Luxury')->get();
-
-        // Return ke view dengan data kapal
-        return view('boats.luxury-category', compact('boats'));
+        return view('boats.index', compact('boats'))->with('selectedCategory', 'Luxury');
     }
 
-    public function show($id)
+    public function filterByCategory($category)
     {
-        $boat = Boat::findOrFail($id);
-        return view('boat-detail', compact('boat'));
+        $boats = Boat::where('category', $category)->get();
+        return view('boats.index', compact('boats', 'category'));
     }
 }
