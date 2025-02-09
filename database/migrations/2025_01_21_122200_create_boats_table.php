@@ -11,10 +11,11 @@ class CreateBoatsTable extends Migration
         Schema::create('boats', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('category'); // Kategori (Superior, Deluxe, dll.)
-            $table->decimal('price', 10, 2);
+            $table->string('category');
+            $table->integer('price');
             $table->integer('max_people');
             $table->string('image');
+            $table->string('departure')->nullable(); // Jika kolom boleh NULL
             $table->timestamps();
         });
     }

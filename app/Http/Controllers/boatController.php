@@ -36,6 +36,17 @@ class BoatController extends Controller
     public function filterByCategory($category)
     {
         $boats = Boat::where('category', $category)->get();
-        return view('boats.index', compact('boats', 'category'));
+        return view('boats.index', compact('boats'))->with('category', $category);
+    }
+    // Method untuk filter berdasarkan departure
+    public function filterByDeparture($departure)
+    {
+        // Ubah format parameter jika diperlukan (misalnya, "Monday-Wednesday" menjadi "Monday - Wednesday")
+        $formattedDeparture = str_replace('-', ' - ', $departure);
+
+        // Query untuk mencari kapal yang memiliki jadwal keberangkatan sesuai
+        $boats = Boat::where('departure', 'like', "%{$formattedDeparture}%")->get();
+
+        return view('boats.index', compact('boats'))->with('selectedDeparture', $departure);
     }
 }

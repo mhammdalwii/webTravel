@@ -15,5 +15,6 @@ class Boat extends Model
         'price',
         'max_people',
         'image',
+        'departure',
     ];
 }

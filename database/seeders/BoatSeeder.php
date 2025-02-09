@@ -12,9 +12,12 @@ class BoatSeeder extends Seeder
         Boat::create([
             'name' => 'Superior 01',
             'category' => 'Superior',
-            'price' => 3350000,
+            'price' => 3750000,
             'max_people' => 15,
-            'image' => '/images/amore/amore1.jpg',
+            'image' => '/images/superior04/superior04.jpg',
+            'departure' => 'Monday - Wednesday, Friday - Sunday', // Pastikan nilai ini ada
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -23,6 +26,9 @@ class BoatSeeder extends Seeder
             'price' => 4750000,
             'max_people' => 16,
             'image' => '/images/superior02/superior02.jpg',
+            'departure' => 'Monday - Wednesday, Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -31,6 +37,9 @@ class BoatSeeder extends Seeder
             'price' => 2950000,
             'max_people' => 15,
             'image' => '/images/superior03/superior03.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -39,6 +48,9 @@ class BoatSeeder extends Seeder
             'price' => 3750000,
             'max_people' => 15,
             'image' => '/images/superior04/superior04.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -47,6 +59,9 @@ class BoatSeeder extends Seeder
             'price' => 3950000,
             'max_people' => 15,
             'image' => '/images/amore/amore05.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -55,6 +70,9 @@ class BoatSeeder extends Seeder
             'price' => 3550000,
             'max_people' => 15,
             'image' => '/images/amore/amore06.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -63,6 +81,9 @@ class BoatSeeder extends Seeder
             'price' => 3750000,
             'max_people' => 15,
             'image' => '/images/amore/amore07.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -71,6 +92,9 @@ class BoatSeeder extends Seeder
             'price' => 3950000,
             'max_people' => 15,
             'image' => '/images/amore/amore08.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -79,6 +103,9 @@ class BoatSeeder extends Seeder
             'price' => 3750000,
             'max_people' => 15,
             'image' => '/images/amore/amore09.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -87,6 +114,9 @@ class BoatSeeder extends Seeder
             'price' => 3950000,
             'max_people' => 15,
             'image' => '/images/amore/amore10.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -95,6 +125,9 @@ class BoatSeeder extends Seeder
             'price' => 3750000,
             'max_people' => 15,
             'image' => '/images/amore/amore11.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -103,6 +136,9 @@ class BoatSeeder extends Seeder
             'price' => 3950000,
             'max_people' => 15,
             'image' => '/images/amore/amore12.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
@@ -111,6 +147,9 @@ class BoatSeeder extends Seeder
             'price' => 3750000,
             'max_people' => 15,
             'image' => '/images/amore/amore13.jpg',
+            'departure' => 'Friday - Sunday',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
 
