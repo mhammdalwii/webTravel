@@ -39,5 +39,7 @@ Route::get('/detail/luxury/luxury01', [HomeController::class, 'detailLuxury01'])
 Route::get('/detail/luxury/luxury02', [HomeController::class, 'detailLuxury02'])->name('detail.luxury02');
 
 Route::get('/boats', [BoatController::class, 'index'])->name('boats.index');
+
 Route::get('/boats/category/{category}', [BoatController::class, 'filterByCategory'])->name('boats.category');
+
 Route::get('/boats/departure/{departure}', [BoatController::class, 'filterByDeparture'])->name('boats.departure');

@@ -14,9 +14,7 @@ class AddDepartureToBoatsTable extends Migration
     public function up()
     {
         Schema::table('boats', function (Blueprint $table) {
-            if (!Schema::hasColumn('boats', 'departure')) {
-                $table->string('departure')->after('max_people')->nullable();
-            }
+            $table->json('departure')->nullable()->after('max_people'); // Kolom JSON
         });
     }
 

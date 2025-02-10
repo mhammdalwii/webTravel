@@ -13,18 +13,31 @@
        </div>
        <div class="col-6 col-md-4">
            <select id="departuresDropdown" class="form-control" onchange="navigateToDeparture(this.value)">
-               <option value="{{ route('boats.index') }}" {{ request('departure') == null ? 'selected' : '' }}>All
-                   Departures</option>
+               <option value="{{ route('boats.index') }}" {{ request('departure') == null ? 'selected' : '' }}>
+                   All Departures
+               </option>
                <option value="{{ route('boats.departure', ['departure' => 'Monday-Wednesday']) }}"
-                   {{ request('departure') == 'Monday-Wednesday' ? 'selected' : '' }}>Monday - Wednesday</option>
+                   {{ request('departure') == 'Monday-Wednesday' ? 'selected' : '' }}>
+                   Monday - Wednesday
+               </option>
                <option value="{{ route('boats.departure', ['departure' => 'Friday-Sunday']) }}"
-                   {{ request('departure') == 'Friday-Sunday' ? 'selected' : '' }}>Friday - Sunday</option>
+                   {{ request('departure') == 'Friday-Sunday' ? 'selected' : '' }}>
+                   Friday - Sunday
+               </option>
            </select>
        </div>
    </div>
 
    <script>
        function navigateToCategory(url) {
+           if (url) {
+               window.location.href = url;
+           }
+       }
+   </script>
+
+   <script>
+       function navigateToDeparture(url) {
            if (url) {
                window.location.href = url;
            }

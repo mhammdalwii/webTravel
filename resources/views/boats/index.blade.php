@@ -17,9 +17,11 @@
             <x-kategori></x-kategori>
             <div class="row g-4 mt-4">
                 @foreach ($boats as $boat)
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
-                            <img src="{{ asset($boat->image) }}" class="card-img-top" alt="{{ $boat->name }}">
+                            <div class="ratio ratio-4x3">
+                                <img src="{{ asset($boat->image) }}" class="card-img-top" alt="{{ $boat->name }}">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">{{ $boat->name }}</h5>
                                 <p class="card-text text-muted">
@@ -31,7 +33,6 @@
                         </div>
                     </div>
                 @endforeach
-
             </div>
         </div>
     </section>
