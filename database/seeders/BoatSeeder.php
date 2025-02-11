@@ -233,9 +233,53 @@ class BoatSeeder extends Seeder
         Boat::create([
             'name' => 'Deluxe 08',
             'category' => 'Deluxe',
-            'price' => 4000000,
+            'price' => 4600000,
+            'max_people' => 14,
+            'image' => '/images/deluxe/deluxe08.JPG',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Deluxe 09',
+            'category' => 'Deluxe',
+            'price' => 3750000,
+            'max_people' => 25,
+            'image' => '/images/deluxe/deluxe09.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Deluxe 10',
+            'category' => 'Deluxe',
+            'price' => 4250000,
+            'max_people' => 15,
+            'image' => '/images/deluxe/deluxe10.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Deluxe 11',
+            'category' => 'Deluxe',
+            'price' => 4500000,
             'max_people' => 13,
-            'image' => '/images/deluxe/deluxe06.jpg',
+            'image' => '/images/deluxe/deluxe11.jpeg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Deluxe 12',
+            'category' => 'Deluxe',
+            'price' => 45000000,
+            'max_people' => 14,
+            'image' => '/images/deluxe/deluxe12.jpg',
             'departure' => ['Friday-Sunday'],
             'created_at' => now(),
             'updated_at' => now(),
@@ -244,25 +288,111 @@ class BoatSeeder extends Seeder
         Boat::create([
             'name' => 'Luxury 01',
             'category' => 'Luxury',
-            'price' => 4750000,
-            'max_people' => 15,
-            'image' => '/images/luxury01/luxury01.jpg',
+            'price' => 490000,
+            'max_people' => 14,
+            'image' => '/images/luxury/luxury01.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
             'name' => 'Luxury 02',
             'category' => 'Luxury',
-            'price' => 4950000,
-            'max_people' => 15,
-            'image' => '/images/luxury02/luxury02.jpg',
+            'price' => 5250000,
+            'max_people' => 22,
+            'image' => '/images/luxury/luxury02.jpg',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Boat::create([
             'name' => 'Luxury 03',
             'category' => 'Luxury',
-            'price' => 5250000,
-            'max_people' => 15,
-            'image' => '/images/luxury03/luxury03.jpg',
+            'price' => 5850000,
+            'max_people' => 13,
+            'image' => '/images/luxury/luxury03.png',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 04',
+            'category' => 'Luxury',
+            'price' => 6500000,
+            'max_people' => 20,
+            'image' => '/images/luxury/luxury04.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 05',
+            'category' => 'Luxury',
+            'price' => 5750000,
+            'max_people' => 22,
+            'image' => '/images/luxury/luxury05.jpg',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 06',
+            'category' => 'Luxury',
+            'price' => 8500000,
+            'max_people' => 14,
+            'image' => '/images/luxury/luxury06.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 07',
+            'category' => 'Luxury',
+            'price' => 6000000,
+            'max_people' => 18,
+            'image' => '/images/luxury/luxury07.jpg',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 08',
+            'category' => 'Luxury',
+            'price' => 7500000,
+            'max_people' => 12,
+            'image' => '/images/luxury/luxury08.jpg',
+            'departure' => ['Monday-Wednesday', 'Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 09',
+            'category' => 'Luxury',
+            'price' => 6500000,
+            'max_people' => 25,
+            'image' => '/images/luxury/luxury09.jpg',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        Boat::create([
+            'name' => 'Luxury 10',
+            'category' => 'Luxury',
+            'price' => 7000000,
+            'max_people' => 18,
+            'image' => '/images/luxury/luxury10.jpg',
+            'departure' => ['Friday-Sunday'],
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }

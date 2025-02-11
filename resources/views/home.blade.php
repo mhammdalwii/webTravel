@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel to Komodo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .faq-container {
+            width: 80%;
+            margin: 50px auto;
+            /* Pusatkan elemen */
+        }
+    </style>
 </head>
 
 <body class="bg-light">
@@ -23,7 +30,6 @@
         <div class="container">
             <h2 class="text-center mb-4">Open Trip 3 hari 2 malam</h2>
             <p class="text-center text-muted mb-5">Pilih kapal, berangkat setiap hari Jumat dan Senin</p>
-
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
@@ -144,12 +150,92 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="{{ route('boats.index') }}" class="btn btn-primary btn-lg">Lihat Semua Kapal</a>
+                <a href="{{ route('boats.index') }}" class="btn btn-primary btn-md">Lihat Semua Kapal</a>
             </div>
-
         </div>
     </section>
-
+    <section class="py-5 d-flex justify-content-center align-items-center flex-column flex-md-row ">
+        <div class=" order-md-2 ">
+            <img src="images/home/home2.JPG" class="img-fluid rounded shadow-lg" alt="Komodo Island"
+                style="width: 450px; max-width: 100%;">
+        </div>
+        <div class="bg-white shadow-lg rounded p-4 text-center z-3" style="max-width: 500px;">
+            <h2 class="text-primary">Halo!</h2>
+            <p class="text-secondary">
+                Kami akan membantu kamu untuk planning perjalanan kamu di Komodo (Labuan Bajo),
+                melalui Easy Komodo, kamu bisa memilih kapal yang sesuai dengan Style Travelling kamu.
+            </p>
+            <a href="#" class="btn btn-primary fw-bold">Mulai Sekarang!</a>
+        </div>
+    </section>
+    <div class="faq-container">
+        <section class=" justify-content-center align-items-center text-center mx-auto ">
+            <div class="mb-5">
+                <h2>FAQ</h2>
+                <h5>Find here the answers to your questions to travel to Komodo</h5>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

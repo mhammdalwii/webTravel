@@ -9,12 +9,6 @@ use App\Models\Boat;
 
 class BoatController extends Controller
 {
-    public function index()
-    {
-        $boats = Boat::all();
-        return view('boats.index', compact('boats'));
-    }
-
     public function superior()
     {
         $boats = Boat::where('category', 'Superior')->get();
@@ -43,5 +37,24 @@ class BoatController extends Controller
     {
         $boats = Boat::whereJsonContains('departure', $departure)->get();
         return view('boats.index', compact('boats'))->with('selectedDeparture', $departure);
+    }
+    public function index(Request $request)
+    {
+        $category = $request->query('category', null);
+        $departure = $request->query('departure', null);
+
+        $query = Boat::query();
+
+        if ($category && $category !== 'All') {
+            $query->where('category', $category);
+        }
+
+        if ($departure && $departure !== 'All') {
+            $query->where('departure', 'LIKE', "%$departure%");
+        }
+
+        $boats = $query->get();
+
+        return view('boats.index', compact('boats', 'category', 'departure'));
     }
 }
