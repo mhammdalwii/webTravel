@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amore - Easy Komodo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <style>
         .container {
-            max-width: 960px;
+            max-width: 1090px;
         }
 
         .image-container {
@@ -30,28 +31,16 @@
 </head>
 
 <body class="bg-light">
-    <header class="bg-white py-3 shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h4 text-primary">Easy Komodo</h1>
-            <nav>
-                <a href="#" class="text-primary text-decoration-none me-3">Private Trips</a>
-                <a href="#" class="text-primary text-decoration-none me-3">Open Trips</a>
-                <a href="#" class="text-primary text-decoration-none">Chat with Us</a>
-            </nav>
-        </div>
-    </header>
-
+    <x-header></x-header>
     <div class="container py-5">
-        <nav class="mb-4">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
-                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Open Trip</a></li>
-                <li class="breadcrumb-item active">Amore</li>
+        <nav class="mt-3">
+            <ol class="breadcrumb p-3 rounded ">
+                <li class="breadcrumb-item"><a href="/" class="text-decoration-none text-secondary">Home</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-secondary">Open Trip</a>
+                </li>
+                <li class="breadcrumb-item active text-primary">Amore</li>
             </ol>
         </nav>
-
-        <h1 class="text-primary mb-4 ">Amore Phinisi Sailing Komodo Tour</h1>
-
         <div class="row">
             <!-- Kolom Gambar -->
             <div class="col-md-12 mb-4">
@@ -91,13 +80,14 @@
         </div>
         <!-- Kolom Teks -->
         <section>
-            <div class="col-md-12">
+            <h1 class="mb-2">Superior Phinisi Sailing Komodo Tour</h1>
+            <div class="col-md-12 mt-3 ">
                 <p>
                     <span class="badge bg-primary">3 DAYS</span>
                     <span class="badge bg-secondary">SHARE TRIP</span>
                     <span class="badge bg-info">ENGLISH</span>
                 </p>
-                <p>The <strong>Amore</strong> boat is a Superior category phinisi. Has 6 cabins for a total of 15
+                <p>The <strong>Superior</strong> boat is a Superior category phinisi. Has 6 cabins for a total of 15
                     person. Departures on every Monday and Friday.</p>
                 <p><strong>Location:</strong> Labuan Bajo, Indonesia</p>
 
@@ -109,14 +99,61 @@
                     <button type="button" class="btn btn-secondary">Large 26.5m</button>
                 </div>
                 <p class="mt-3">Check the following available rooms:</p>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <!-- Master Cabin -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <img src="/images/detail/superior/masterCabin.jpg" class="card-img-top rounded"
+                                    alt="Master Cabin" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">Master Cabin</h6>
+                                <p class="mb-1 text-muted">2 Orang</p>
+                                <p class="fw-semibold text-dark">Rp 4.350.000 /person</p>
+                                <p class="text-muted">Private Bathroom</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Private Cabin -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <img src="/images/detail/superior/privateCabin.jpg" class="card-img-top rounded"
+                                    alt="Private Cabin" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">Private Cabin</h6>
+                                <p class="mb-1 text-muted">2 Orang</p>
+                                <p class="fw-semibold text-dark">Rp 3.850.000 /person</p>
+                                <p class="text-muted">Private Bathroom</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="card">
-                            <img src="/images/amore/amore1.jpg" class="card-img-top " alt="...">
+                            <div class="ratio ratio-4x3">
+                                <img src="/images/detail/superior/sharingCabin.jpg" class="card-img-top"
+                                    alt="sharingCabin" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">Private Cabin</h6>
+                                <p class="mb-1 text-muted">2 Orang</p>
+                                <p class="fw-semibold text-dark">Rp 3.850.000 /person</p>
+                                <p class="text-muted">Private Bathroom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="ratio" style="--bs-aspect-ratio: 50%;">
+                                <img src="/images/detail/superior/privateCabin.jpg" class="card-img-top "
+                                    alt="...">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">This </p>
                             </div>
                         </div>
                     </div>
@@ -181,11 +218,14 @@
         </div>
         <div class="d-grid gap-2 mt-4">
             <button class="btn btn-secondary" type="button"><a href="#"
-                    class="text-white text-decoration-none">Chat With Us</a></button>
+                    class="text-white text-decoration-none"> <i class="bi bi-whatsapp text-success"></i> Chat With
+                    Us</a></button>
         </div>
     </div>
+    <x-footer />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

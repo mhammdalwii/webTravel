@@ -1,6 +1,6 @@
-<header class="bg-white py-3 shadow">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg">
+<header class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-light bg-gradient py-3">
+        <div class="container">
             <a class="navbar-brand text-primary fw-bold" href="#">
                 <img src="images/home/logo.png" class="img-fluid" alt="Logo" style="width: 150px; height: auto;">
             </a>
@@ -20,6 +20,17 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </header>
+
+<script>
+    window.addEventListener("scroll", function() {
+        let navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("opacity-75");
+        } else {
+            navbar.classList.remove("opacity-75");
+        }
+    });
+</script>

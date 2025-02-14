@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="text-center mt-3">
-            <small>PT Maxima Liburan Indonesia</small>
+            <small>PT Samsara Kreatif Indonesia</small>
         </div>
     </div>
 </footer>

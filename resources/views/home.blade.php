@@ -13,6 +13,10 @@
             margin: 50px auto;
             /* Pusatkan elemen */
         }
+
+        .accordion-body {
+            text-align: justify;
+        }
     </style>
 </head>
 
@@ -27,7 +31,7 @@
         </div>
     </main>
 
-    <section class="py-5">
+    <section class="py-5 bg-body text-dark">
         <div class="container">
             <h2 class="text-center mb-4">Open Trip 3 hari 2 malam</h2>
             <p class="text-center text-muted mb-5">Pilih kapal, berangkat setiap hari Jumat dan Senin</p>
@@ -181,17 +185,17 @@
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne">
-                            Accordion Item #1
+                            What should I bring with me?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            Since the weather is usually sunny, you will spend most of the stay in bathing suits, so
+                            bring even a few of them. You will spend most time on board barefoot, but it’s good to pack
+                            some flip-flops and trainers for hikes. Occasionally, it can get a little bit cool in the
+                            evenings, so a light top is useful to have. We recommend to use rash-vests as they are a
+                            great solution to limit the use of sunblock. Avoid suitcases if possible and try to use soft
+                            collapsible bags
                         </div>
                     </div>
                 </div>
@@ -200,17 +204,13 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
+                            What is the destination airport when purchasing a flight ticket?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            To join the Komodo tour, you must buy a flight ticket to Komodo Airport, Labuan Bajo,
+                            Flores, NTT. Most flights will transit in Denpasar, Bali, and then continue to Labuan Bajo.
                         </div>
                     </div>
                 </div>
@@ -219,17 +219,92 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            Where is the meeting point?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            In Labuan Bajo, Flores, NTT, Indonesia. The meeting point is located at the Pelni harbor, 10
+                            minutes from Komodo Airport. All participants will be picked up from their respective
+                            locations half an hour before the trip.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            What if there are large waves?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            The Komodo National Park cruise sails in bay waters, so the waves and currents are generally
+                            calm.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            Why do reservations need to send a photo of their ID card/passport?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Photo ID/Passport is required for boat permits as a mandatory requirement from the
+                            government
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            How do I book a seat for an open trip?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <h6>A. Please confirm the availability of the trip first. </h6>
+                            <h6>B. Reservations cannot be made without a down payment.</h6>
+                            <h6>C. Payment is made in two steps:</h6>
+                            <ul>
+                                <li>A 50% deposit is required.</li>
+                                <li>The remaining balance must be paid a maximum of 14 days before the trip.</li>
+                                - Payments should be made to:
+                                <ul>
+                                    <li>Recipient Bank: Bank Negara Indonesia (BNI)</li>
+                                    <li>Account Number: 6230719994</li>
+                                    <li>Account Name: PT Samsara Kreatif Indonesia</li>
+                                    <li>Swiftcode: BNINIDJAXXX</li>
+                                </ul>
+                                - Please confirm payment via WhatsApp at +62 822-9222-9450 by sending the proof of
+                                transfer. </br>
+                                - Samsara Komodo provides documentation, and each participant agrees to be recorded and
+                                photographed during the trip. Indonesia Juara has the right to use this content for
+                                social media promotion purposes.
+                                By registering, participants agree to the terms and conditions for the trip.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            How to choose boat in komodo?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Please contact our Customer Service, we are ready to help you to choose the boat for your
+                            trip in Komodo, “Text me here”
                         </div>
                     </div>
                 </div>
