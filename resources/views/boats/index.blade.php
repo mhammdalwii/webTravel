@@ -10,7 +10,7 @@
 
 <body class="bg-light">
     <x-header></x-header>
-    <section class="py-5">
+    <section class="py-5 mt-5">
         <div class="container">
             <h2 class="text-center mb-4">Open Trip 3 Hari 2 Malam</h2>
             <p class="text-center text-muted mb-5">Pilih kapal, berangkat setiap hari Jumat dan Senin</p>
@@ -36,6 +36,7 @@
             </div>
         </div>
     </section>
+    <x-footer></x-footer>
     <script src="/js/boats.js"></script>
 </body>
 

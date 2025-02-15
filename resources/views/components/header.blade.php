@@ -1,7 +1,7 @@
 <header class="fixed-top">
     <nav class="navbar navbar-expand-lg bg-light bg-gradient py-3">
         <div class="container">
-            <a class="navbar-brand text-primary fw-bold" href="#">
+            <a class="navbar-brand text-primary fw-bold" href="/">
                 <img src="images/home/logo.png" class="img-fluid" alt="Logo" style="width: 150px; height: auto;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

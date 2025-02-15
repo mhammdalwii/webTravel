@@ -27,6 +27,12 @@
             padding: 5px 10px;
             border-radius: 5px;
         }
+
+        .img-carousel {
+            max-height: 500px;
+            width: auto;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -52,18 +58,19 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/images/amore/amore1.jpg" class="d-block w-100" alt="kapal">
+                            <img src="/images/detail/superior/1.JPG" class="d-block w-100 img-carousel" alt="kapal1">
                         </div>
-                        <div class="carousel-item active">
-                            <img src="/images/amore/amore1.jpg" class="d-block w-100" alt="kapal">
+                        <div class="carousel-item">
+                            <img src="/images/detail/superior/3.jpg" class="d-block w-100 img-carousel" alt="kapal3">
                         </div>
-                        <div class="carousel-item active">
-                            <img src="/images/amore/amore1.jpg" class="d-block w-100" alt="kapal">
+                        <div class="carousel-item">
+                            <img src="/images/detail/superior/4.jpg" class="d-block w-100 img-carousel" alt="kapal4">
                         </div>
-
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev">
@@ -109,9 +116,8 @@
                             </div>
                             <div class="card-body text-center">
                                 <h6 class="fw-bold">Master Cabin</h6>
-                                <p class="mb-1 text-muted">2 Orang</p>
-                                <p class="fw-semibold text-dark">Rp 4.350.000 /person</p>
-                                <p class="text-muted">Private Bathroom</p>
+                                <p class="mb-1 text-muted">2-3 Guest</p>
+                                <p class="fw-semibold text-dark">Rp 3.500.000 / Guest</p>
                             </div>
                         </div>
                     </div>
@@ -124,10 +130,9 @@
                                     alt="Private Cabin" style="object-fit: cover;">
                             </div>
                             <div class="card-body text-center">
-                                <h6 class="fw-bold">Private Cabin</h6>
-                                <p class="mb-1 text-muted">2 Orang</p>
-                                <p class="fw-semibold text-dark">Rp 3.850.000 /person</p>
-                                <p class="text-muted">Private Bathroom</p>
+                                <h6 class="fw-bold"> 2 Private Cabin</h6>
+                                <p class="mb-1 text-muted">2 Guest</p>
+                                <p class="fw-semibold text-dark">Rp 3.300.000 / Guest</p>
                             </div>
                         </div>
                     </div>
@@ -138,30 +143,25 @@
                                     alt="sharingCabin" style="object-fit: cover;">
                             </div>
                             <div class="card-body text-center">
-                                <h6 class="fw-bold">Private Cabin</h6>
-                                <p class="mb-1 text-muted">2 Orang</p>
-                                <p class="fw-semibold text-dark">Rp 3.850.000 /person</p>
-                                <p class="text-muted">Private Bathroom</p>
+                                <h6 class="fw-bold">2 Sharing Cabin</h6>
+                                <p class="mb-1 text-muted">4 Guest</p>
+                                <p class="fw-semibold text-dark">Rp 2.650.000 / Guest</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <div class="ratio" style="--bs-aspect-ratio: 50%;">
-                                <img src="/images/detail/superior/privateCabin.jpg" class="card-img-top "
-                                    alt="...">
+                            <div class="ratio ratio-4x3">
+                                <img src="/images/detail/superior/sharingCabin.jpg" class="card-img-top"
+                                    alt="sharingCabin" style="object-fit: cover;">
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This </p>
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">Extrabed</h6>
+                                <p class="mb-1 text-muted">1 Guest</p>
+                                <p class="fw-semibold text-dark">Rp 2.500.000 / Guest</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-grid gap-2 mt-4">
-                    <button class="btn btn-primary" type="button"><a href="#"
-                            class="text-white text-decoration-none">📅 Cek
-                            Ketersediaan</a></button>
                 </div>
                 <h3 class="mt-4">Itinerary 3 Days 2 Nighs</h3>
                 <h6>Day 1 – Pick up from Hotel or Airport, Transfer to Harbor, Kelor Island, Manjarite Island & Kalong
@@ -211,19 +211,13 @@
                 </ul>
             </ul>
         </section>
-        <div class="d-grid gap-2 mt-4">
+        <div class="d-grid gap-2">
             <button class="btn btn-primary" type="button"><a href="#"
                     class="text-white text-decoration-none">📅 Cek
                     Ketersediaan</a></button>
         </div>
-        <div class="d-grid gap-2 mt-4">
-            <button class="btn btn-secondary" type="button"><a href="#"
-                    class="text-white text-decoration-none"> <i class="bi bi-whatsapp text-success"></i> Chat With
-                    Us</a></button>
-        </div>
     </div>
     <x-footer />
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

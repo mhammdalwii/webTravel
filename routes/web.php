@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/detail/superior/amore', [HomeController::class, 'detailAmore'])->name('detail.amore');
 
-Route::get('/detail/superior02', [HomeController::class, 'detailSuperior02'])->name('detail.superior02');
+Route::get('/detail/superior/superior02', [HomeController::class, 'detailSuperior02'])->name('detail.superior02');
 
 Route::get('/detail/superior03', [HomeController::class, 'detailSuperior03'])->name('detail.superior03');
 

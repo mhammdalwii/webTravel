@@ -23,7 +23,7 @@ class HomeController extends Controller
 
     public function detailSuperior02()
     {
-        return view('detail.superior02');
+        return view('detail/superior/superior02');
     }
 
     public function detailSuperior03()
