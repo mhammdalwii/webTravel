@@ -28,13 +28,9 @@ class HomeController extends Controller
 
     public function detailSuperior03()
     {
-        return view('detail.superior03');
+        return view('detail/superior/superior03');
     }
 
-    public function detailSuperior04()
-    {
-        return view('detail/superior/superior04');
-    }
 
     public function detailDeluxe01()
     {

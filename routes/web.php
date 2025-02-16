@@ -24,9 +24,7 @@ Route::get('/detail/superior/amore', [HomeController::class, 'detailAmore'])->na
 
 Route::get('/detail/superior/superior02', [HomeController::class, 'detailSuperior02'])->name('detail.superior02');
 
-Route::get('/detail/superior03', [HomeController::class, 'detailSuperior03'])->name('detail.superior03');
-
-Route::get('/detail/superior/superior04', [HomeController::class, 'detailSuperior04'])->name('detail.superior04');
+Route::get('/detail/superior/superior03', [HomeController::class, 'detailSuperior03'])->name('detail.superior03');
 
 Route::get('/detail/deluxe/deluxe01', [HomeController::class, 'detailDeluxe01'])->name('detail.deluxe01');
 

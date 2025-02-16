@@ -78,19 +78,6 @@
                 <div class="col-md-4">
                     <div class="card shadow-sm">
                         <div class="ratio ratio-4x3">
-                            <img src="/images/superior04/superior04.jpg" class="card-img-top img-fluid" alt="Amore">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Superior 04</h5>
-                            <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
-                            <a href="{{ route('detail.superior03') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
-                                Detail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="ratio ratio-4x3">
                             <img src="/images/deluxe/deluxe01.jpeg" class="card-img-top img-fluid" alt="Amore">
                         </div>
                         <div class="card-body">
