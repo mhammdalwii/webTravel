@@ -60,6 +60,8 @@
                             aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -67,10 +69,16 @@
                                 alt="kapal1">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/detail/superior/3.jpg" class="d-block w-100 img-carousel" alt="kapal3">
+                            <img src="/images/detail/superior02/2.jpg" class="d-block w-100 img-carousel"
+                                alt="kapal3">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/detail/superior/4.jpg" class="d-block w-100 img-carousel" alt="kapal4">
+                            <img src="/images/detail/superior02/3.JPG" class="d-block w-100 img-carousel"
+                                alt="kapal4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/detail/superior02/4.JPG" class="d-block w-100 img-carousel"
+                                alt="kapal5">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -112,13 +120,13 @@
                     <div class="col">
                         <div class="card border-0 shadow-sm">
                             <div class="ratio ratio-4x3">
-                                <img src="/images/detail/superior/masterCabin.jpg" class="card-img-top rounded"
+                                <img src="/images/detail/superior02/5.jpg" class="card-img-top rounded"
                                     alt="Master Cabin" style="object-fit: cover;">
                             </div>
                             <div class="card-body text-center">
-                                <h6 class="fw-bold">Master Cabin</h6>
+                                <h6 class="fw-bold"> 2 Master Cabin</h6>
                                 <p class="mb-1 text-muted">2-3 Guest</p>
-                                <p class="fw-semibold text-dark">Rp 3.500.000 / Guest</p>
+                                <p class="fw-semibold text-dark">Rp 4.250.000 / Guest</p>
                             </div>
                         </div>
                     </div>
@@ -127,39 +135,39 @@
                     <div class="col">
                         <div class="card border-0 shadow-sm">
                             <div class="ratio ratio-4x3">
-                                <img src="/images/detail/superior/privateCabin.jpg" class="card-img-top rounded"
+                                <img src="/images/detail/superior02/6.jpg" class="card-img-top rounded"
                                     alt="Private Cabin" style="object-fit: cover;">
                             </div>
                             <div class="card-body text-center">
-                                <h6 class="fw-bold"> 2 Private Cabin</h6>
+                                <h6 class="fw-bold"> 2 Private Cabin Baloncy</h6>
                                 <p class="mb-1 text-muted">2 Guest</p>
-                                <p class="fw-semibold text-dark">Rp 3.300.000 / Guest</p>
+                                <p class="fw-semibold text-dark">Rp 3.650.000 / Guest</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
                             <div class="ratio ratio-4x3">
-                                <img src="/images/detail/superior/sharingCabin.jpg" class="card-img-top"
-                                    alt="sharingCabin" style="object-fit: cover;">
+                                <img src="/images/detail/superior02/8.jpg" class="card-img-top" alt="sharingCabin"
+                                    style="object-fit: cover;">
                             </div>
                             <div class="card-body text-center">
-                                <h6 class="fw-bold">2 Sharing Cabin</h6>
+                                <h6 class="fw-bold">2 Private Cabin Sea View</h6>
+                                <p class="mb-1 text-muted"> 2 Guest</p>
+                                <p class="fw-semibold text-dark">Rp 3.650.000 / Guest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="ratio ratio-4x3">
+                                <img src="/images/detail/superior02/7.jpg" class="card-img-top" alt="sharingCabin"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">Sharing Cabin Sea View</h6>
                                 <p class="mb-1 text-muted">4 Guest</p>
-                                <p class="fw-semibold text-dark">Rp 2.650.000 / Guest</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="ratio ratio-4x3">
-                                <img src="/images/detail/superior/sharingCabin.jpg" class="card-img-top"
-                                    alt="sharingCabin" style="object-fit: cover;">
-                            </div>
-                            <div class="card-body text-center">
-                                <h6 class="fw-bold">Extrabed</h6>
-                                <p class="mb-1 text-muted">1 Guest</p>
-                                <p class="fw-semibold text-dark">Rp 2.500.000 / Guest</p>
+                                <p class="fw-semibold text-dark">Rp 3.150.000 / Guest</p>
                             </div>
                         </div>
                     </div>
