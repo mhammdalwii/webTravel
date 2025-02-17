@@ -33,8 +33,8 @@
 
     <section class="py-5 bg-body text-dark">
         <div class="container">
-            <h2 class="text-center mb-4">Open Trip 3 hari 2 malam</h2>
-            <p class="text-center text-muted mb-5">Pilih kapal, berangkat setiap hari Jumat dan Senin</p>
+            <h2 class="text-center mb-4">Open Trip 3 days 2 Nights</h2>
+            <p class="text-center text-muted mb-5">Choose a Ship, Departing Every Friday and Monday</p>
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
@@ -136,6 +136,19 @@
                             <h5 class="card-title">Luxury 02</h5>
                             <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
                             <a href="{{ route('detail.luxury02') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
+                                Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-4x3">
+                            <img src="/images/luxury/luxury02.jpg" class="card-img-top img-fluid" alt="Amore">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury 03</h5>
+                            <p class="card-text text-muted">dari Rp 3.350.000<br>max 15 orang</p>
+                            <a href="{{ route('detail.luxury03') }}" class="btn btn-primary mt-4 px-4 py-2">Lihat
                                 Detail</a>
                         </div>
                     </div>
@@ -291,7 +304,7 @@
                     <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
                         <div class="accordion-body">
                             Please contact our Customer Service, we are ready to help you to choose the boat for your
-                            trip in Komodo, “Text me here”
+                            trip in Komodo, <a href="http://wa.link/o01g10">Text me here</a>
                         </div>
                     </div>
                 </div>
